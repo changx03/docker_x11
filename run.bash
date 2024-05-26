@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker image remote ubuntu-2004-x11
+docker image remove ubuntu-2004-x11
 
 docker buildx build -t ubuntu-2004-x11 --file ./basic.Dockerfile .
 
